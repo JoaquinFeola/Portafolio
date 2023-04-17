@@ -11,12 +11,11 @@
     text-transform: uppercase;
     padding:  20px 10px;
     font-family: system-ui, 'Segoe UI';
-    font-weight: 500;
+    font-weight: 350;
     text-decoration: none;
     color: #6b7688;
     transition: .5s;
     position: relative;
-    /* margin: 5px; */
 }
 .navbar-link::after {
     content: '';

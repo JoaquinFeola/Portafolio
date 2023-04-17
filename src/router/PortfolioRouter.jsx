@@ -1,6 +1,7 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { Navbar } from "../ui/components";
-import { HomePage } from "../portfolio/pages";
+import { AboutPage, ContactPage, HomePage, ProjectsPage, TechnologiesPage } from "../portfolio/pages";
+import { PageNotFound } from "../ui/pages/PageNotFound";
 
 export const PortfolioRouter = () => {
   return (
@@ -8,11 +9,12 @@ export const PortfolioRouter = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage/>} />
-        <Route path="about" element={<HomePage/>} />
-        <Route path="technologies" element={<HomePage/>} />
-        <Route path="projects" element={<HomePage/>} />
-        <Route path="contact" element={<HomePage/>} />
-        <Route path="/*" element={<PageNotFound />} />
+        <Route path="about" element={<AboutPage/>} />
+        <Route path="technologies" element={<TechnologiesPage/>} />
+        <Route path="projects" element={<ProjectsPage/>} />
+        <Route path="contact" element={<ContactPage/>} />
+        <Route path="404" element={<PageNotFound />} />
+        <Route path="/*" element={<Navigate to={"404"}/>} />
       </Routes>
     </>
   )
