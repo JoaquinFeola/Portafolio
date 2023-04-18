@@ -23,5 +23,6 @@ export const Technologies = [
         id: 5,
         name: 'Git',
         imgURL: '/assets/technologies-imgs/git_logo.png',
+        gitSecondColor: 'GitSecondColor'
     },
 ];
