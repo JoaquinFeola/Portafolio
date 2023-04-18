@@ -1,0 +1,13 @@
+
+.technology-img {
+    width: 70px;
+}
+.card {
+    border: 1px solid #000;
+}
+.technologies-container {
+    display: grid;
+    gap: 10px;
+    margin: 20px;
+    grid-template-columns: repeat(2, 100px);
+}

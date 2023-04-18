@@ -1,27 +1,27 @@
 export const Technologies = [
     {
-        id: Number,
+        id: 1,
         name: 'HTML',
-        imgURL: '../../assets/technologies-imgs/html_logo.png',
+        imgURL: '/assets/technologies-imgs/html_logo.png',
     },
     {
-        id: Number,
+        id: 2,
         name: 'CSS',
-        imgURL: '../../assets/technologies-imgs/css_logo.png',
+        imgURL: '/assets/technologies-imgs/css_logo.png',
     },
     {
-        id: Number,
+        id: 3,
         name: 'Js',
-        imgURL: '../../assets/technologies-imgs/javascript_logo.png',
+        imgURL: '/assets/technologies-imgs/javascript_logo.png',
     },
     {
-        id: Number,
+        id: 4,
         name: 'React',
-        imgURL: '../../assets/technologies-imgs/react_js_logo.png',
+        imgURL: '/assets/technologies-imgs/react_js_logo.png',
     },
     {
-        id: Number,
+        id: 5,
         name: 'Git',
-        imgURL: '../../assets/technologies-imgs/git_logo.png',
+        imgURL: '/assets/technologies-imgs/git_logo.png',
     },
 ];

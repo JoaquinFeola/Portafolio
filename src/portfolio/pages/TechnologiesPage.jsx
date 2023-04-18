@@ -1,6 +1,18 @@
+import { TechnologyCard } from "../components/TechnologyCard";
+import { Technologies } from "../helpers/technologies-arr";
+import '../assets/pages-css/TechnologiesPage.css';
 
 export const TechnologiesPage = () => {
   return (
-    <div>TechnologiesPage</div>
+    <div className="technologies-container">
+        {
+            Technologies.map(( technology ) => (
+                <TechnologyCard
+                    key={ technology.id } 
+                    {...technology}
+                />
+            ))
+        }
+    </div>
   )
 }
