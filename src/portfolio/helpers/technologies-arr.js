@@ -11,13 +11,13 @@ export const Technologies = [
     },
     {
         id: 3,
-        name: 'Js',
+        name: 'JS',
         imgURL: '/assets/technologies-imgs/javascript_logo.png',
     },
     {
         id: 4,
         name: 'React',
-        imgURL: '/assets/technologies-imgs/react_js_logo.png',
+        imgURL: '/assets/technologies-imgs/react_js_logo.svg',
     },
     {
         id: 5,

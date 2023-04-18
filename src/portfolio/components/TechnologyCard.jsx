@@ -8,7 +8,7 @@ export const TechnologyCard = ({ name, imgURL }) => {
             alt={ `${ name } logo --Joaquin_Portfolio` } 
         />
         <div className="card-body">
-            <h3>{ name }</h3>
+            <h3 className="technology-name-text">{ name }</h3>
         </div>
     </div>
   )
